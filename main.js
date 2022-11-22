@@ -1,6 +1,6 @@
-const x2 = prompt('Nhập x2');
-const x = prompt('Nhập x');
-const c = prompt('Nhập c');
+const x2 = parseInt(prompt('Nhập x2'));
+const x = parseInt(prompt('Nhập x'));
+const c = parseInt(prompt('Nhập c'));
 
 try {
     if (x2 == "" || x == "" || c == "") throw 'Không được bỏ trống';
